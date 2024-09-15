@@ -306,6 +306,24 @@ main .carousel-slide img {
   main {
     max-width: 100vw;
   }
+  main #wpp-btn {
+    display: none;
+  }
+  main #wpp-btn:hover {
+    animation: none;
+  }
+  main #wpp-btn-mobile {
+    display: flex;
+    margin: 20px;
+    z-index: 999;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    animation: wpp-btn 1s ease-in-out infinite;
+  }
+  main #wpp-btn-mobile:hover {
+    animation: none;
+  }
   main .carousel-container {
     width: 100%;
     margin: 30px auto;
